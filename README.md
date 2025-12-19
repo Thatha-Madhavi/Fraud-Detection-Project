@@ -57,79 +57,70 @@ This project includes:
 
 ## 📥 Installation
 
-1. **Clone the repository**
+### 1. **Clone the repository**
 
-```bash
 git clone https://github.com/Thatha-Madhavi/Fraud-Detection-Project.git
 cd Fraud-Detection-Project
 
-Install dependencies
+### 2. Install dependencies
 
 If you have a requirements.txt file:
 
 pip install -r requirements.txt
 
-
 If not, install manually:
 
 pip install pandas numpy scikit-learn matplotlib seaborn
 
-▶️ How to Run
-Using the Notebook
+## ▶️ How to Run
+### Using the Notebook
 
 Open and run the notebook for step-by-step exploration:
 
-jupyter notebook analysis_model\(1\).ipynb
+jupyter notebook analysis_model.ipynb
 
-Using the Prediction Script
+### Using the Prediction Script
 python fraud_detection.py
 
+## 📊 Model Evaluation
 
-(Replace this with any required arguments or dataset path if needed)
+### Model performance is typically evaluated on:
 
-📊 Model Evaluation
+- Accuracy
 
-Model performance is typically evaluated on:
+- Precision
 
-Accuracy
+- Recall
 
-Precision
+- F1-Score
 
-Recall
-
-F1-Score
-
-Confusion Matrix
+- Confusion Matrix
 
 These help understand how well the model detects both fraudulent and legitimate transactions.
 
-📝 Example Results
-
-(You can include sample screenshots, model scores, confusion matrix graphs, or sample predictions here once available.)
-
-📌 Conclusion
+## 📌 Conclusion
 
 This project demonstrates a fundamental approach to fraud detection using machine learning. It can be further enhanced with:
 
-Feature engineering
+- Feature engineering
 
-Handling class imbalance (e.g., SMOTE)
+- Handling class imbalance (e.g., SMOTE)
 
-Deploying as a web service
+- Deploying as a web service
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
+- Fork the repository
 
-Create a feature branch (feature/xyz)
+- Create a feature branch (feature/xyz)
 
-Commit your changes
+- Commit your changes
 
-Open a Pull Request
+- Open a Pull Request
 
-📄 License
+## 📄 License
 
 This project is licensed under the MIT License © 2025.
 
